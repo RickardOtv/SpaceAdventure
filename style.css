@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Orbitron");
+@import url("https://fonts.googleapis.com/css?family=Exo");
+
+body {
+  background-image: url("img/background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.menu {
+  background-color: #ffbf6081;
+  color: #f06730;
+  padding: 10px;
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+
+.menu > h1 {
+  font-size: 50px;
+  margin-top: 20px;
+  font-family: "Orbitron", sans-serif;
+}
+
+.menuBtns > a {
+  font-family: "Exo", sans-serif;
+  font-size: 35px;
+  color: #fff;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: fit-content;
+  margin: 0 auto;
+  display: block;
+  text-decoration: none;
+}
+
+.menuBtns > a:hover {
+  background-color: #f06730;
+}
+
+.menuStart {
+  background-color: #ffbf6081;
+  color: #000000;
+  padding: 10px;
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 200px;
+  font-family: "Exo", sans-serif;
+  font-weight: bold;
+}
+
+.menuStart > h1 {
+  font-size: 50px;
+  margin-top: 20px;
+  font-family: "Orbitron", sans-serif;
+  color: #f06730;
+}
+
+.startBackBtn,
+.submitBtn {
+  display: inline-block;
+  padding: 10px;
+  font-family: "Orbitron", sans-serif; /* Use your preferred space-themed font */
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #f06730; /* Customizable color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.submitBtn {
+  margin-left: 200px;
+}
+
+.startBackBtn:hover,
+.submitBtn:hover {
+  text-decoration: underline;
+}
