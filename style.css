@@ -63,8 +63,8 @@ body {
   color: #f06730;
 }
 
-.startBackBtn,
-.submitBtn {
+#startBackBtn,
+#submitBtn {
   display: inline-block;
   padding: 10px;
   font-family: "Orbitron", sans-serif; /* Use your preferred space-themed font */
@@ -80,11 +80,24 @@ body {
   text-decoration: none;
 }
 
-.submitBtn {
+#submitBtn {
   margin-left: 200px;
 }
 
-.startBackBtn:hover,
-.submitBtn:hover {
+#startBackBtn:hover,
+#submitBtn:hover {
   text-decoration: underline;
+}
+
+#constraint {
+  font-size: 11px;
+  font-family: "Exo", sans-serif;
+  color: #fa0000;
+  margin-left: 87px;
+  background-color: rgb(215, 207, 56);
+  visibility: hidden;
+}
+
+.fnameDiv {
+  margin-bottom: 15px;
 }

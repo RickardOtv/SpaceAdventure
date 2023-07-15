@@ -12,15 +12,23 @@
     <div class="menuStart">
       <h1>Create A Character</h1>
       <div class="StartOptions">
-        <label for="fname">First name:</label>
-        <input type="text" id="fname" name="fname" /><br /><br />
+        <div class="fnameDiv">
+          <label for="fname">First name:</label>
+          <input type="text" id="fname" name="fname" /><br />
+          <label id="constraint">(Minimum 3 letters and no numbers)</label
+          ><br />
+        </div>
         <label for="lname">Last name:</label>
         <input type="text" id="lname" name="lname" /><br /><br />
+
         <input type="radio" name="gender" value="male" /> Male
         <input type="radio" name="gender" value="female" /> Female <br /><br />
         <div class="menuStartBtn">
-          <a class="startBackBtn" href="index.html">Back</a>
-          <input class="submitBtn" type="submit" value="Submit" />
+          <a id="startBackBtn" href="index.html">Back</a>
+
+          <button id="submitBtn" name="submit" onclick="submit()">
+            Submit
+          </button>
         </div>
       </div>
     </div>
